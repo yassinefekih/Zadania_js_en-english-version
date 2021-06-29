@@ -97,23 +97,37 @@ function sortArray(arr){
 ////
 arr1= new Array(1,2,3,4);
 arr2= new Array(2,5,7,4);
-arr3= new Array(2,5,7,4,8);
-function addArray(arr1,arr2){
+arr3= new Array(2,5,7,4,8,50,7,0);
+function addArray(array1,array2){
   result=[]
-  for(i=0;i<arr1.length;i++){
-    result.push(arr1[i]+arr2[i]);
+  for(i=0;i<array1.length;i++){
+    result.push(array1[i]+array2[i]);
   }
   return result;
 }
 
-function twoArray(arr1,arr2){
+function twoArray(a,b){
 var result=[];
-if(arr1.length>arr2.length){
-  result=addArray(arr1,arr2);
-}else if(arr2.length>arr1.length){
-  result=addArray(arr2,arr1);
-}else{
-  addArray(arr1,arr2);
+  if(a.length>b.length){
+    result=addArray(b,a);
+    for(i=b.length;i<a.length;i++){
+      result.push(a[i]);
+    }
+} else if(b.length>a.length){
+    result=addArray(a,b);
+      for(i=a.length;i<b.length;i++){
+       result.push(b[i]);
+  }
+}else if(b.length==a.length){
+  result=addArray(a,b);
 }
+return result;
+}
+/////////////
+function arrayWithParametre(arr){
+  result=[]
+  for(i=0;i<arr.length;i++){
+    result.push(arr[i]*-1);
+  }
 return result;
 }
