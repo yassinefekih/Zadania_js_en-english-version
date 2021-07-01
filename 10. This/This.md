@@ -1,6 +1,6 @@
 #### Zadanie 1
 
-Utwórz 2 obiekty person i person2. Niech posiadają następujące właściwości:
+ Utwórz 2 obiekty person i person2. Niech posiadają następujące właściwości:
 
 * Imię
 * Nazwisko
