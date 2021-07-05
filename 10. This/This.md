@@ -1,34 +1,34 @@
-#### Zadanie 1
+#### Excercise 1
 
- Utwórz 2 obiekty person i person2. Niech posiadają następujące właściwości:
+Create 2 person and person2 objects. Let them have the following properties:
 
-* Imię
-* Nazwisko
-* Wiek
-* Kraj
-* Miasto
+* First name
+* Name
+* Age
+* Country
+* City
 
-Stwórz metody:
+Create methods:
 
-1. Która wypiszą wszystkie informacje o tej osobie
-2. Która dodaje 1 rok do wieku za każdym jej wywołaniem
+1. Which will list all information about this person
+2. Which adds 1 year to the age each time it is called
 
-Następnie napisz kilka wywołań metody numer 2 w różnych kontekstach tak aby sprawdzić zasadę jej działania.
+Then write several calls to method number 2 in different contexts to check how it works. 
 
-#### Zadanie 2
+#### Excercise 2
 
-Rozszeż obiekty person i person2 z poprzedniego zadania o nowe pole typu tablicowego, które będzie przetrzymywać ulubione dania danej osoby. Następnie napisz metodę która będzie wypisywać w konsoli zawartość tego pola oraz metodę która będzie dodawać kolejne elementy do tego pola. Wszystkie te rzeczy mają znaleźć się poza pierwotnym ciałem obiektu
+Extend the person and person2 objects from the previous task with a new array-type field that will hold the person's favorite dishes. Then write a method which will print the contents of this field in the console and a method which will add additional elements to this field. All these things are to be outside the original body of the object
 
-#### Zadanie 3
+#### Excercise 3
 
-Napisz kalkulator który będzie miał funkcję dodawania, odejmowania, mnożenia i dzielenia. Potrzebne metody:
+Write a calculator that will add, subtract, multiply and divide. Methods needed:
 
-1. Metoda zapisująca liczby a i b w kontekście obiektu
-2. Metoda sumująca wcześniej zapisane liczby
-3. Metoda odejmująca wcześniej zapisane liczby
-4. Metoda mnożąca wcześniej zapisane liczby
-5. Metoda dzieląca wcześniej zapisane liczby. Jeśli liczba b = 0 to wypisz w konsoli odpowiedni komunikat błędu.
+1. A method that saves the numbers a and b in the context of an object
+2. A method of adding up previously saved numbers
+3. A method that subtracts previously saved numbers
+4. A method of multiplying previously saved numbers
+5. The method of dividing previously written numbers. If the number b = 0 then print an appropriate error message in the console.
 
-#### Zadanie 4
+#### Excercise 4
 
-Stwórz prosty symulator wchodzenia i schodzenia z drabiny. Potrzebne będą trzy metody. Zastanów się jakie?
+Create a simple simulator of climbing and descending a ladder. You will need three methods. Think about what? 

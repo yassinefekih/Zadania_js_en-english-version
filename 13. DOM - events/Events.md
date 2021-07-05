@@ -1,34 +1,34 @@
-#### Zadanie 1
+#### Excercise 1
 
-Stwórz następujące eventy i sprawdź co udostępnia ich obiekt event:
+Create the following events and check what their event object provides:
 
-1. Kliknięcie w przycisk o id="test-event"
-2. Ruch myszką na ekranie
-3. Najechanie myszką na przycisk o id="test-event"
-4. naciśnięcie klawisza na klawiaturze
-5. scrollowanie strony w dół i w górę
-6. zmianę tekstu w input id="input-test"
+1. Clicking the button with id = "test-event"
+2. Move the mouse on the screen
+3. Hover the mouse over the button with id = "test-event"
+4. pressing a key on the keyboard
+5. scrolling the page up and down
+6.change the text in input id = "input-test"
 
-#### Zadanie 2
+#### Exercise 2
 
-Napisz funkcję która po kliknięciu na button id="ex2" pobierze tekst z jego data atrybutu a następnie wpisze ten tekst do spanu który jest poniżej.
+Write a function which after clicking on the button id = "ex2" will retrieve the text from its date attribute and then write this text to the text box below.
 
-#### Zadanie 3
+#### Exercise 3
 
-Napisz funkcję która po najechaniu na czerwony kwadrat zmieniu jego kolor na niebieski. Następnie po zjechaniu myszki z obszaru kwadratu zmieni się z powrotem na czerwony.
+Write a function that changes its color to blue when you hover over the red square. Then, when you move the mouse away from the square, it will turn back to red.
 
-#### Zadanie 4
+#### Exercise 4
 
-Napisz funkcję walidacyjną dla input id="input-test". Funkcja ma za zadanie sprawdzać co jest wpisane w inputa. Jeśli user wpisze jakąś cyfrę pokaż mu komunikat błędu pod inputem informujący że nie może wpisywać cyfr.
+Write a validation function for input id = "input-test". The function is to check what is entered in the input. If user enters a digit, show him an error message under the input stating that he cannot enter digits.
 
-#### Zadanie 5
+#### Exercise 5
 
-Napisz funkcję countera. Funkcja ma za zadanie wpisywać do spanu w divie id="ex5" numerka odpowiadającego ilości kliknięć w button id="ex5-button". Jeśli licznik dojdzie do 10 event powinien być usunięty.
+Write a counter function. The function is to enter the number in the diva id = "ex5" number corresponding to the number of clicks in the button id = "ex5-button". If the timer reaches 10, the event should be removed.
 
-#### Zadanie 6
+#### Exercise 6
 
-Napisz funkcję która będzie obserwowac scroll strony. Jeśli scroll zjedzie poniżej 200px zmień kolor strony na czerwony. Jeśli będzie powyżej 200px niech zmieni kolor na biały.
+Write a function that will watch the page scroll. If the scroll goes below 200px, change the page color to red. If it's over 200px, make it white.
 
-#### Zadanie 7
+#### Exercise 7
 
-Napisz obsługę kalkulatora. Dodaj odpowiednie eventy do przycisków. Wynik wyświetlaj w inpucie. Staraj się aby funkcje były reużywalne.
+Write calculator support. Add relevant events to the buttons. Display the result in input. Try to make the functions reusable.
