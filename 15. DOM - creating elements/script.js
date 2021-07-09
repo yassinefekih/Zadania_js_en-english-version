@@ -115,7 +115,7 @@ btn2.onclick = function(){
   }
   ///////
   function ex9(){
-    var col =[];
+    
     var headers=["name","surname","age","number Of Children"];
     var table = document.createElement('table');
     var headRows=document.createElement('tr');
@@ -146,6 +146,7 @@ btn2.onclick = function(){
     button.innerHTML = "create";
 
     function submitForm(ipt1,ipt2,ipt3,ipt4){
+      var col =[];
       var obj ={Name:"",surname:"",age:"",numberOfChildren:""};
       obj.name=ipt1.value;
       obj.surname=ipt2.value;
@@ -175,5 +176,93 @@ btn2.onclick = function(){
     content.appendChild(input4);
     content.appendChild(button);
 
-
   }
+/////////10
+function upcaselater(){
+  var x =document.getElementsByTagName("td");
+   for(i=0;i<x.length;i++){
+    x[i].textContent=x[i].textContent.charAt(0).toUpperCase() + x[i].innerText.slice(1);
+    console.log(x[i].textContent);
+  }    
+}
+/////////
+function newfunction(param){
+  var sum=0;
+  for(i=0;i<param.length;i++){
+    if(param.charAt(i).match(/(\d+)/)){
+      var divs = document.createElement('div');
+      divs.innerHTML=param.charAt(i);
+      document.body.appendChild(divs);
+      sum+=parseInt(param.charAt(i));
+    }
+  }
+  return sum;
+}
+////////
+var obj={a:1,b:"ya",c:'Ala'};
+
+function addAlaa(obj){
+
+  if (obj==="Ala"){
+    obj="Ola";
+  }else{
+    var divs = document.createElement('div');
+    divs.innerHTML="The word Ala is not in the text.";
+    document.body.appendChild(divs);
+  }
+}
+//////////
+var chars=["yacine","fekih","said","aaaaa"];
+function numberOfLetter(pram){
+  var number  =[];
+    for(i=0;i<pram.length;i++){
+        number.push(pram[i].length);
+    }
+    return number;
+}
+function addNumbers(p){
+  var sum=0;
+  for(i=0;i<p.length;i++){
+    sum+=parseInt(p[i]);
+  }
+  return sum;
+}
+
+function moy(num){
+  var a = numberOfLetter(num);
+  var b =addNumbers(a);
+  var c = b/a.length;
+  return c;
+}
+moy(chars);
+////
+var obj = {
+  name: '',
+  surname: '',
+  age: ''
+}
+function setobj(name,surname,age){
+  var state=false;
+  obj.name=name;
+  obj.surname=surname;
+  obj.age=age;
+  if(name.length>5||surname.length>5){
+    state=true;
+  }
+  else{
+    state=false;
+  }
+  return state;
+}
+
+var buttons = document.createElement('button');
+buttons.innerHTML="intial state";
+    document.body.appendChild(buttons);
+    buttons.onclick=()=>{
+      if(setobj(obj.name,obj.surname,obj.age)){
+      setobj("","","");
+      console.log(obj);
+      }
+    }
+
+
